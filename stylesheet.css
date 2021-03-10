@@ -9,7 +9,7 @@ nav
   {
     display: block;
     zoom: 1
-    padding: 0 px 35 px;
+    padding: 0 px 20 px;
 }
 
 body
@@ -20,8 +20,64 @@ body
   font-style: normal;
 	}
 
+	.number6 {
+		padding-left: 30px;
+	}
+
+.firsttable {
+	padding-top: 5em;
+}
+
 .price {
 	float: right;
+}
+
+.leftside {
+	font-weight: bold;
+}
+
+.secondtable {
+	padding-top: 2em;
+}
+
+.summary {
+	padding-top: 2em;
+}
+
+.amount {
+	padding-top: 2em;
+}
+
+.thirdtable {
+	padding-top: 2em;
+}
+
+.fourthtable {
+	padding-top: 2em;
+}
+
+.payment {
+	padding-top: 2em;
+}
+
+.venmo {
+	width:10%;
+}
+
+.applepay {
+	width: 20%;
+	padding-left: 20px;
+}
+
+
+.paypal {
+	width: 30%;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.addresspic {
+	width: 90%;
 }
 
 .orderpic {
@@ -50,6 +106,7 @@ p {
 
 h1, h2 {
 	margin-top: 2em;
+
 }
 
 .cateringservices {
@@ -67,10 +124,19 @@ td, tr {
 	margin-left: 20px;
 }
 
+.check {
+	float:right;
+}
 
 .porkshoulders {
 margin-top: 1em;
 font-size: 1.2em;
+width: auto;
+padding-left: 20px;
+}
+
+.listup {
+	margin-top: 40px;
 }
 
 .fasfa-arrow-circle-right
@@ -81,10 +147,16 @@ font-size: 1.2em;
 	transition: 0.5s ea2e-in;
 }
 
-
-
 .far fa-check-circle {
-	margin-right: 20px;
+	margin-left: 20px
+}
+
+.order  {
+	text-align: center;
+}
+
+.number {
+	text-align: center;
 }
 
 .box {
@@ -117,8 +189,8 @@ li a, .dropbtn {
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	font-size: 1.5em;
-	padding: 0.8em 4em;
+	font-size: 1.4em;
+	padding: 0.6em 4em;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
